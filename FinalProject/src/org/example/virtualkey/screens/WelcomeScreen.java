@@ -17,9 +17,9 @@ public class WelcomeScreen implements Screen {
 
 
     public WelcomeScreen() {
-        options.add("1. Show Files");
-        options.add("2. Show File Options Menu");
-        options.add("3. Quit");
+        options.add("1. Display Files");
+        options.add("2. Display File Options Menu");
+        options.add("3. Exit");
 
     }
     
