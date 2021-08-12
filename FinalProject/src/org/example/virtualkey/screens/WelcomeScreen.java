@@ -10,8 +10,8 @@ import java.util.Scanner;
 
 public class WelcomeScreen implements Screen {
 
-    private String welcomeText = "VirtualKey Application";
-    private String developerText = "Developer: Sandeep Kumar";
+    private String welcomeText = "******VirtualKey Application********";
+    private String developerText = "******Developer: Sandeep Kumar******";
 
     private ArrayList<String> options = new ArrayList<>();
 
@@ -24,8 +24,10 @@ public class WelcomeScreen implements Screen {
     }
     
     public void introWS() {
+    	System.out.println("************************************");
     	System.out.println(welcomeText);
         System.out.println(developerText);
+        System.out.println("************************************");
         System.out.println("\n");
         Show();
     }
@@ -34,7 +36,9 @@ public class WelcomeScreen implements Screen {
     
     @Override
     public void Show() {
-    	System.out.println("Main Menu");
+    	System.out.println("====================================");
+    	System.out.println("            Main Menu");
+    	System.out.println("====================================");
         for (String s : options)  {
             System.out.println(s);
         }
